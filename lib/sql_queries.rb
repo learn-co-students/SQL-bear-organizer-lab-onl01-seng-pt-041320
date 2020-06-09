@@ -40,7 +40,7 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  query = "SELECT * FROM bears 
-          ORDER BY id DESC LIMIT 1;"
+  query = "SELECT id, name, age, gender, color, temperament, alive FROM bears
+          WHERE id = (SELECT MAX(id) FROM bears);"
   query
 end

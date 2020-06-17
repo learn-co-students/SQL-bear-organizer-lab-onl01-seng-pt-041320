@@ -7,7 +7,7 @@ INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES
 INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES 
 ('Sargeant Brown', 59, 'M', 'black', 'angry', 1);
 INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES
-('Melissa', 13, 'F', 'dark brown', 'happy', 1);
+('Melissa', 13, 'F', 'dark brown', 'goofy', 1);
 INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES 
 ('Grinch', 80, 'M', 'dark brown', 'angry', 0 );
 INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES 
